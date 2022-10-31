@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+
+}
+
+.item {
+  flex-grow: 1;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.item+.item {
+  margin-left: 2%;
+}
