@@ -1,14 +1,44 @@
-.container {
+* {
+  box-sizing: border-box;
+}
+
+body {
   display: flex;
-
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
 }
 
-.item {
-  flex-grow: 1;
-  height: 100px;
-  background-color: blueviolet;
+#main {
+  display: flex;
+  flex: 1;
 }
 
-.item+.item {
-  margin-left: 2%;
+#main>article {
+  flex: 1;
+  order: 1
+}
+
+#main>nav {
+  background-color: cyan;
+  order: 3;
+}
+
+#main>aside {
+  background-color: bisque;
+  order: 2;
+}
+
+header,
+footer {
+  background-color: yellowgreen;
+  height: 20vh;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+  padding: 1em;
 }
