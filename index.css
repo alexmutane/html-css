@@ -14,17 +14,17 @@ body {
   flex: 1;
 }
 
-#main>article {
+.article {
   flex: 1;
   order: 1
 }
 
-#main>nav {
+.nav {
   background-color: cyan;
   order: 3;
 }
 
-#main>aside {
+.aside {
   background-color: bisque;
   order: 2;
 }
