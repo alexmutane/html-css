@@ -1,0 +1,13 @@
+.container {
+  background-color: black;
+  width: 100w;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.container>div {
+  background-color: #7159c1;
+}
