@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 28px 15px 24px;
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $red;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+
+    ul {
+      li {
+        padding: .3rem;
+
+        a {
+          text-decoration: none;
+          font-size: 1.2rem;
+          color: $black;
+          font-weight: 700;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      margin-left: 1.5rem;
+
+      button {
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: .7rem 1rem;
+        border-radius: 1.2rem;
+        background-color: $gray-lite;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .login {
+        background-color: $red;
+        color: $white;
+      }
+
+      .signup {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
